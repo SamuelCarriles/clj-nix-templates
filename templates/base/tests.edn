@@ -1,0 +1,8 @@
+;; Configuration Guide: https://cljdoc.org/d/lambdaisland/kaocha/1.91.1392/doc/3-configuration
+#kaocha/v1
+ {:tests [{:id :unit
+           :source-paths ["src"]
+           :test-paths ["test"]}]
+  :reporter kaocha.report/documentation
+  :watch? false
+  :color true}
