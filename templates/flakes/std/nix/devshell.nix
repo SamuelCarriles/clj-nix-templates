@@ -7,7 +7,7 @@
     in
     {
       devShells.default = pkgs.mkShell {
-        name = "project_shell";
+        name = "project_shell"; # placeholder shell name
         packages = [
           clojure
           pkgs.clojure-lsp
