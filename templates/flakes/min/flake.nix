@@ -13,6 +13,7 @@
         name = "project_shell";
         packages = [
           pkgs.clojure
+          pkgs.clojure-lsp
           # pkgs.docker
         ];
       };
