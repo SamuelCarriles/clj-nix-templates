@@ -29,7 +29,7 @@
         path = ./templates/flakes/min;
       };
 
-      default = self.templates.clj-minimal;
+      default = self.templates.clj-deps;
     };
   };
 }
